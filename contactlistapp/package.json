@@ -9,6 +9,7 @@
   "author": "Ajay Sunarthi",
   "license": "ISC",
   "devDependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "mongojs": "^2.4.0"
   }
 }
