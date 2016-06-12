@@ -1,0 +1,47 @@
+
+<!doctype html>
+<html class="no-js" ng-app="meanMapApp">
+<head>
+    <meta charset="utf-8">
+    <title>Scotch MEAN Map</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <!-- Holder JS -->
+    <script src="../node_modules/holderjs/holder.js"></script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-YQF4zW5q4SGHrhh7-F88BeVZf-E_iVQ"></script>
+    
+    <script src="../node_modules/modernizr/bin/modernizr"></script>
+    
+    <script src="../node_modules/jquery/jquery.js"></script>
+    <script src="../node_modules/angular/angular.js"></script>
+    <script src="../node_modules/angular-route/angular-route.js"></script>
+    <script src="../node_modules/angularjs-geolocation/dist/angularjs-geolocation.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <ul class="nav nav-pills pull-right">
+            <li active><a href="">Join the Team</a></li>
+            <li disabled><a href="">Find Teammates</a></li>
+        </ul>
+        <h3 class="text-muted">MEAN MapApp</h3>
+    </div>
+    <!-- Map and Side Panel -->
+    <div class="row content">
+        <!-- Google Map -->
+        <div class="col-md-7">
+            <div id="map"><img src="holder.js/645x645"></div>
+        </div>
+        <!-- Side Panel -->
+        <div class="col-md-5">
+                
+        </div>
+    </div>
+    <hr/>
+
+</div>
+</body>
+</html>
